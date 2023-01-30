@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourFragment"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_name_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_age_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="age"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tv_gender_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="gender"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>
